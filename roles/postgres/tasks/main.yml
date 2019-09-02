@@ -4,7 +4,7 @@
   yum:
     name: postgresql-server
     state: latest
-- name: enable apache at boot
+- name: enable postgres at boot
   service:
     name: postgresql
     enabled: yes
